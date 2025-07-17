@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="emeraldswordmod"
+version="1.0.0"
+displayName="Emerald Sword Mod"
+description="Adds an emerald sword to Minecraft"
+authors="Antonin"
+
+[[dependencies.emeraldswordmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.emeraldswordmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
