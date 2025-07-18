@@ -7,5 +7,50 @@
   "item.emeraldswordmod.stick_sword": "Stick Sword",
   "item.emeraldswordmod.netherrack_sword": "Netherrack Sword",
   "item.emeraldswordmod.amethyst_sword": "Amethyst Sword",
-  "item.emeraldswordmod.glowstone_sword": "Glowstone Sword"
+  "item.emeraldswordmod.glowstone_sword": "Glowstone Sword",
+
+  "item.emeraldswordmod.emerald_helmet": "Emerald Helmet",
+  "item.emeraldswordmod.emerald_chestplate": "Emerald Chestplate",
+  "item.emeraldswordmod.emerald_leggings": "Emerald Leggings",
+  "item.emeraldswordmod.emerald_boots": "Emerald Boots",
+
+  "item.emeraldswordmod.redstone_helmet": "Redstone Helmet",
+  "item.emeraldswordmod.redstone_chestplate": "Redstone Chestplate",
+  "item.emeraldswordmod.redstone_leggings": "Redstone Leggings",
+  "item.emeraldswordmod.redstone_boots": "Redstone Boots",
+
+  "item.emeraldswordmod.lapis_helmet": "Lapis Helmet",
+  "item.emeraldswordmod.lapis_chestplate": "Lapis Chestplate",
+  "item.emeraldswordmod.lapis_leggings": "Lapis Leggings",
+  "item.emeraldswordmod.lapis_boots": "Lapis Boots",
+
+  "item.emeraldswordmod.quartz_helmet": "Quartz Helmet",
+  "item.emeraldswordmod.quartz_chestplate": "Quartz Chestplate",
+  "item.emeraldswordmod.quartz_leggings": "Quartz Leggings",
+  "item.emeraldswordmod.quartz_boots": "Quartz Boots",
+
+  "item.emeraldswordmod.apple_helmet": "Apple Helmet",
+  "item.emeraldswordmod.apple_chestplate": "Apple Chestplate",
+  "item.emeraldswordmod.apple_leggings": "Apple Leggings",
+  "item.emeraldswordmod.apple_boots": "Apple Boots",
+
+  "item.emeraldswordmod.stick_helmet": "Stick Helmet",
+  "item.emeraldswordmod.stick_chestplate": "Stick Chestplate",
+  "item.emeraldswordmod.stick_leggings": "Stick Leggings",
+  "item.emeraldswordmod.stick_boots": "Stick Boots",
+
+  "item.emeraldswordmod.netherrack_helmet": "Netherrack Helmet",
+  "item.emeraldswordmod.netherrack_chestplate": "Netherrack Chestplate",
+  "item.emeraldswordmod.netherrack_leggings": "Netherrack Leggings",
+  "item.emeraldswordmod.netherrack_boots": "Netherrack Boots",
+
+  "item.emeraldswordmod.amethyst_helmet": "Amethyst Helmet",
+  "item.emeraldswordmod.amethyst_chestplate": "Amethyst Chestplate",
+  "item.emeraldswordmod.amethyst_leggings": "Amethyst Leggings",
+  "item.emeraldswordmod.amethyst_boots": "Amethyst Boots",
+
+  "item.emeraldswordmod.glowstone_helmet": "Glowstone Helmet",
+  "item.emeraldswordmod.glowstone_chestplate": "Glowstone Chestplate",
+  "item.emeraldswordmod.glowstone_leggings": "Glowstone Leggings",
+  "item.emeraldswordmod.glowstone_boots": "Glowstone Boots"
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:restone"
+    }
+  },
+  "result": {
+    "item": "emeraldswordmod:redstone_chestplate"
+  }
+}

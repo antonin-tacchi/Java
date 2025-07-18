@@ -39,12 +39,35 @@ public class EmeraldSwordMod {
             this.repairIngredient = Ingredient.of(repairItem);
         }
 
-        @Override public int getUses() { return uses; }
-        @Override public float getSpeed() { return speed; }
-        @Override public float getAttackDamageBonus() { return attackDamageBonus; }
-        @Override public int getLevel() { return level; }
-        @Override public int getEnchantmentValue() { return enchantmentValue; }
-        @Override public Ingredient getRepairIngredient() { return repairIngredient; }
+        @Override
+        public int getUses() {
+            return uses;
+        }
+
+        @Override
+        public float getSpeed() {
+            return speed;
+        }
+
+        @Override
+        public float getAttackDamageBonus() {
+            return attackDamageBonus;
+        }
+
+        @Override
+        public int getLevel() {
+            return level;
+        }
+
+        @Override
+        public int getEnchantmentValue() {
+            return enchantmentValue;
+        }
+
+        @Override
+        public Ingredient getRepairIngredient() {
+            return repairIngredient;
+        }
     }
 
     // ================== TIERS ÉQUILIBRÉS ==================
@@ -219,16 +242,30 @@ public class EmeraldSwordMod {
 
     public EmeraldSwordMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // Enregistrement des épées
         ITEMS.register(modEventBus);
+
+        // Enregistrement des armures
+        ArmorItems.ARMOR_ITEMS.register(modEventBus);
+
+        // Événements
         modEventBus.addListener(this::addCreative);
+
         System.out.println("Emerald Sword Mod loaded for 1.20.1!");
     }
 
     @SubscribeEvent
     public void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            // Ajouter les épées
             for (RegistryObject<SwordItem> sword : SWORDS) {
                 event.accept(sword);
+            }
+
+            // Ajouter les armures
+            for (RegistryObject<ArmorItem> armor : ArmorItems.ALL_ARMOR_ITEMS) {
+                event.accept(armor);
             }
         }
     }

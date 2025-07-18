@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "emeraldswordmod:redstone_leggings"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "   "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "emeraldswordmod:apple_helmet"
+  }
+}
