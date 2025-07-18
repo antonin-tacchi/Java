@@ -1,5 +1,11 @@
 {
   "item.emeraldswordmod.emerald_sword": "Emerald Sword",
   "item.emeraldswordmod.redstone_sword": "Redstone Sword",
-  "item.emeraldswordmod.lapis_sword": "Lapis Sword"
+  "item.emeraldswordmod.lapis_sword": "Lapis Sword",
+  "item.emeraldswordmod.quartz_sword": "Quartz Sword",
+  "item.emeraldswordmod.apple_sword": "Apple Sword",
+  "item.emeraldswordmod.stick_sword": "Stick Sword",
+  "item.emeraldswordmod.netherrack_sword": "Netherrack Sword",
+  "item.emeraldswordmod.amethyst_sword": "Amethyst Sword",
+  "item.emeraldswordmod.glowstone_sword": "Glostone Sword"
 }
